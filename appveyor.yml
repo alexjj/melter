@@ -1,0 +1,9 @@
+environment:
+  matrix:
+    - PYTHON: "C:\Miniconda3-x64"
+
+install:
+  - pip install pyinstaller
+
+build:
+  - pyinstaller -F -i melter.ico melther.py
