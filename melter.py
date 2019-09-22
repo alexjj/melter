@@ -19,12 +19,6 @@ from appJar import gui
 from pathlib import Path
 
 
-
-# %%
-# input_file = '/home/alex/Dropbox/dev/Work/ipso/input-1/CasesfromSS.xlsx'
-# output_file = '/home/alex/Dropbox/dev/Work/ipso/processed.csv'
-
-
 #%%
 def process_forecast(df, casename):
     """
